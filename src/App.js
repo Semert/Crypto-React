@@ -35,26 +35,25 @@ function App() {
           <input
             className="coin-input"
             type="text"
-            placeholder="Search"
-            value={search}
             onChange={handleChange}
+            placeholder="Search"
           />
-          {filteredCoins.map((coin) => {
-            return (
-              <Coin
-                key={coin.id}
-                name={coin.name}
-                price={coin.current_price}
-                symbol={coin.symbol}
-                marketcap={coin.total_volume}
-                volume={coin.market_cap}
-                image={coin.image}
-                priceChange={coin.price_change_percentage_24h}
-              />
-            );
-          })}
         </form>
       </div>
+      {filteredCoins.map((coin) => {
+        return (
+          <Coin
+            key={coin.id}
+            name={coin.name}
+            price={coin.current_price}
+            symbol={coin.symbol}
+            marketcap={coin.total_volume}
+            volume={coin.market_cap}
+            image={coin.image}
+            priceChange={coin.price_change_percentage_24h}
+          />
+        );
+      })}
     </div>
   );
 }
