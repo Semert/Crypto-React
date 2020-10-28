@@ -1,4 +1,4 @@
-(https://user-images.githubusercontent.com/44974863/94924192-bf54b480-04c5-11eb-9cbe-c2d7e296a9a2.gif
+https://user-images.githubusercontent.com/44974863/94924192-bf54b480-04c5-11eb-9cbe-c2d7e296a9a2.gif
 
 
 
